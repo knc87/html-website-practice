@@ -1,0 +1,33 @@
+.footer{
+  background-color: rgba(54, 54, 54);
+  color: white;
+  height: 700px;
+
+}
+
+.footer-content-container{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.location-hours,
+.information,
+.socials {
+  width: 320px;
+}
+
+.location-hours h4{
+  margin-top: 0px;
+}
+
+.contact-info{
+  margin: 40px 0px;
+}
+
+.phone-number, .email-address, .day-of-week{
+  margin: 0;
+}
+

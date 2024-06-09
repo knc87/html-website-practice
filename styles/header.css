@@ -1,0 +1,81 @@
+.header{
+  display: flex;
+  padding: 0px 64px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+.website-logo{
+  width: 110px;
+}
+
+.website-logo:hover{
+  cursor: pointer;
+}
+
+.right-section{
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  padding: 0;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-selection{
+  margin-right: 24px;
+  color: lightgray;
+  transition: 0.2s;
+}
+
+.menu-selection:hover{
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.contact-us-button{
+  border: 2px solid;
+  color: rgb(252, 3, 132);
+  border-color: rgb(252, 3, 132);
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.contact-us-button:hover{
+  cursor: pointer;
+  background-color: rgb(252, 3, 132);
+  color: white;
+}
+
+.social-media-links{
+  display: flex;
+  margin: 0px 20px;
+}
+.social-media-icons,
+.search-icon{
+  width: 18px;
+  margin: 0 5px;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.search{
+  display: flex;
+}
+
+.social-media-icons:hover,
+.search-icon:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+

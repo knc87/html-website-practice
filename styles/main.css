@@ -1,0 +1,81 @@
+.main-body{
+  background-color: rgb(245, 245, 245);
+  
+}
+.main-content{
+  width: 60%;
+  margin: auto;
+  padding: 75px 0px;
+}
+
+.main-content h3{
+  color: rgb(252, 3, 132);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.main-content h1{
+  font-size: 54px;
+  margin: 0;
+}
+
+.main-content p{
+  width: 70%;
+  font-size: 18px;
+  margin: 18px 0;
+  line-height: 26px;
+  color: rgba(32, 32, 32, 0.7);
+}
+
+.visit-us-button{
+  background-color: rgb(252, 3, 132);
+  border: 0 solid;
+  color: white;
+  font-family: Poppins, Arial;
+  font-size: 18px;
+  padding: 20px 36px;
+  border-radius: 4px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.visit-us-button:hover{
+  cursor: pointer;
+}
+
+.claw-photo{
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.how-does-it-work{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.how-does-it-work h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(77, 77, 77);
+  margin-bottom: 60px;
+}
+
+.steps{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.steps-desc{
+  width: 320px;
+  color:rgba(32, 32, 32, 0.7);
+}
+
+.steps-desc h4{
+  color: rgb(252, 3, 132);
+}
